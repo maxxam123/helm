@@ -1,4 +1,4 @@
 dependencies:
   - name: "cert-manager"
-    version: ""
-    repository: ""
+    version: "1.16.1"
+    repository: "https://charts.jetstack.io"
