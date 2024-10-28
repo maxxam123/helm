@@ -3,7 +3,7 @@ kind: Application
 metadata:
   name: cert-manager
   # namespace: argocd
-  namespace: argo
+  namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
