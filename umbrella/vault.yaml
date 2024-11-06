@@ -1,1 +1,2 @@
-
+vault:
+  installCRDs: true
