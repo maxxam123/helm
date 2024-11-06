@@ -1,8 +1,9 @@
 global:
   image:
     tag: "v2.6.6"
-  
-"server.insecure": "true"
+configs:
+  params:
+    "server.insecure": "true"
 
 argo-cd:
   replicaCount: 1
