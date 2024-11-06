@@ -2,7 +2,10 @@ argo-cd:
   global:
     image:
       tag: "v2.6.6"
-
+      
   server:
-    extraArgs:
-    - --insecure
+    insecure: "true"
+    
+  # server:
+  #   extraArgs:
+  #   - --insecure
