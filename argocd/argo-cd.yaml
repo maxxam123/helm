@@ -6,3 +6,8 @@ argo-cd:
   server:
     extraArgs:
     - --insecure
+
+  # configs:
+  #   params:
+  #     server:
+  #       insecure: true
