@@ -4,7 +4,7 @@ global:
   
 configs:
   params:
-    "server.insecure": true
+    "server.insecure": "true"
 
 argo-cd:
   replicaCount: 1
