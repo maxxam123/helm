@@ -1,4 +1,15 @@
----
-configs:
-  params:
-    server.insecure: true
+# ---
+# configs:
+#   params:
+#     server.insecure: true
+
+argo-cd:
+  dex:
+    enabled: false
+  notifications:
+    enabled: false
+  applicationSet:
+    enabled: true
+  server:
+    extraArgs:
+      - --insecure
